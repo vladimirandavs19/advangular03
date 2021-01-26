@@ -1,1 +1,9 @@
-<p>dashboard works!</p>
+<h1>Dashboard</h1>
+<div class="row">
+    <div class="col-4">
+        <app-donut [titulo]="'Venta'"></app-donut>
+    </div>
+    <div class="col-4">
+        <app-donut [data]="[10,50,60]" [labels]="labels1"></app-donut>
+    </div>
+</div>

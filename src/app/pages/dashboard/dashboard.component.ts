@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class DashboardComponent implements OnInit {
+  labels1: string[];
 
-  constructor() { }
+  constructor() {
+    this.labels1 = ['A', 'AB', 'C'];
+  }
 
   ngOnInit(): void {
   }
